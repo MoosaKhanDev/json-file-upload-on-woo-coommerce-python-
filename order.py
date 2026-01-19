@@ -5,9 +5,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 import time
 
-WC_URL = "https://nona.amazonbookhouse.com/wp-json/wc/v3/orders"
-CONSUMER_KEY = "ck_a1f48ae3095f98cd20353d240d93f4e95900090a"
-CONSUMER_SECRET = "cs_d2b6559f4914af8f32cde882760c23f54a6f35bb"
+WC_URL = "siteurl"
+CONSUMER_KEY = "ck_"
+CONSUMER_SECRET = "cs_"
 
 def clean_str(val):
     if pd.isna(val) or val is None:
